@@ -1,0 +1,205 @@
+html {
+    overflow-x: hidden;
+}
+body {
+ overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.video__header video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.cont__heade{
+    position: relative;
+}
+.cont__header:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 770px;
+    left: 0;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.61);
+    opacity: 0.6;
+}
+.cont__header h1{
+    color: #0176BC;
+    font-size: 3.9rem;
+}
+.btn__star{
+    position: relative;
+    width: 277px;
+    height: 60px;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #FF7A59;
+    border-radius: 60px;
+    margin-top: 40px;
+}
+.btn__star:before {
+    content: "";
+    position: absolute;
+    height: 66px;
+    width: 283px;
+    border-radius: 60px;
+    margin-top: -15px;
+    margin-left: -82px;
+    border: 1px solid #FF7A59;
+}
+.navbar--logo {
+    display: block;
+    width: 68px;
+    height: 62px;
+    margin-left: 50px;
+}
+.skin__header{
+    color: #0176BC;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 20px;
+    margin-left: -8px;
+}
+.nav__items{
+    font-family: 'Andada Pro';
+    font-weight: 700;
+    font-size: 16px;
+    color: #016DAD;
+    margin-top: 2px;
+}
+.header__icons a{
+    padding: 6px 10px 6px 10px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #0176BC 0%, #18CCE7 87.96%);
+}
+.header__icons i, .shoop__nav i {
+    color: #fff;
+}
+.icon__nav{
+    padding: 6px 13px 6px 13px!important;
+}
+.shoop__nav{
+    width: 100px;
+    margin-left: 15px;
+    height: 32px;
+    background: linear-gradient(270deg, #18CCE7 44.13%, #18CCE7 44.14%, #0176BC 107.48%);
+    border-radius: 50px 0px 0px 50px;
+    display: flex;
+}
+.shoop__nav a{
+    margin-top: 2px;
+}
+.barra{
+    background: #fff;
+    width: 1px;
+    height: 23px;
+    margin: 4px 0px 0px 0px;
+}
+.icon_a{
+    margin-left: 16px;
+}
+.icon_b{
+    margin-right: 16px;
+}
+/*-- ABOUT--*/
+section.abuot .container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.about__img > div > img:nth-child(1) {
+    margin-top: 17em;
+    position: relative;
+}
+.about__img > div > img:nth-child(2) {
+    margin-left: -84px;
+}
+.about__img{
+    position: relative;
+}
+.fraja-blue {
+    position: absolute;
+    width: 252px;
+    background: #94DCEE;
+    left: 0px;
+    margin-left: -116px;
+    height: 100%;
+}
+.about{
+    width: 100%;
+  }
+  .abouts__imag img {
+    border-radius: 0px 0px 100px 0px;
+    border: 2px solid white;
+    object-fit: cover;
+    height: 353px;
+}
+.abouts__img img{
+    position: absolute;
+    width: 240px;
+    height: 328px;
+    left: 70px;
+    top: 1011px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 100px 0px;
+}
+.info__aboutt{
+    overflow-x: hidden;
+}
+.info__about:before {
+    content: "";
+    background-image:url('../img/LOGO.png');
+    background-repeat: no-repeat;
+    background-size: 31em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: -348px;
+    display: flex;
+    height: 31em;
+    pointer-events: none;
+    width: 35em;
+    opacity: .1;
+}
+/*text*/
+h4.title__about {
+    background: linear-gradient(45deg, #0689c6, #18cce7);
+    width: max-content;
+    padding: 0px 100px 0px 20px;
+    border-radius: 0 25px 25px 0;
+    color: white;
+    font-family: Jost;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50.58px;
+    margin-left: 10px;
+    margin-bottom: 1.2em;
+}
+
+/*BUTTON*/
+button.btn-unic {
+    background: #0176BC;
+    border-radius: 25px;
+    padding: 11px 40px;
+    font-family: "Andada Pro";
+    font-weight: 400;
+    line-height: 23.54px;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 0px 0px 1px #0176bc;
+    border: 2px solid white;
+}
+button:hover{
+    opacity: .8;
+}
+/*-- FIN ABOUT--*/
